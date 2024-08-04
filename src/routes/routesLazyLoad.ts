@@ -16,7 +16,7 @@ interface Route {
 
 const LazyLayout = lazy( () => import( /* webpackChunkName: "LazyLayout" */ '../01-lazyload/layout/LazyLayout') );
 
-export const routes: Route[] = [
+export const routesLazyLoad: Route[] = [
     {
         path: '/LazyLoad/*',
         to: '/LazyLoad/',

@@ -3,8 +3,9 @@ import { BrowserRouter } from 'react-router-dom';
 import { Routes, Route, NavLink, Navigate } from 'react-router-dom';
 
 import logo from '../logo.svg'
-import { routes } from './routes';
+import { routesComponentsPatterns } from './routesComponentsPatterns';
 
+const routes = [...routesComponentsPatterns];
 
 export const Navigation = () => {
     return (
