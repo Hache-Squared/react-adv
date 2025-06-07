@@ -18,7 +18,7 @@ export const Navigation = () => {
               <NavLink to="/" activeClassName="nav-active" exact>Home</NavLink>
             </li>
             <li>
-              <NavLink to="/about" activeClassName="nav-active" exact>About</NavLink>
+              <NavLink to="/about" activeClassName="nav-active" exact>About.</NavLink>
             </li>
             <li>
               <NavLink to="/users" activeClassName="nav-active" exact>Users</NavLink>
